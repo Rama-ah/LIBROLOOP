@@ -12,14 +12,9 @@
       content="Book,read,library,virtual library, borrow books online, free books, book discussions, publish books, cultural exchange, book research, reading community, LibroLoop, reading platform"
     />
     <meta name="author" content=" Enas, Rama" />
-    <meta name="robots" content="index" />
     <link rel="icon" type="image/x-icon" href="#" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
-    />
-    <link rel="stylesheet" href="index.css" />
-    <title>LibroLoop</title>
+    <link rel="stylesheet" href="BrowseBooks.css">
+    <title>LibroLoop||Books</title>
   </head>
   <body>
     <header class="header-container">
@@ -27,8 +22,8 @@
       <!-- nav -->
       <nav class="main-nav">
         <ul class="navbar">
-          <li><a href="index.html" class="active">Home</a></li>
-          <li><a href="BrowseBooks.html">Browse Books</a></li>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="BrowseBooks.html" class="active">Browse Books</a></li>
           <li><a href="#">Communities</a></li>
           <li><a href="#">Research </a></li>
           <li><a href="#">Publishing</a></li>
@@ -36,33 +31,34 @@
         </ul>
       </nav>
     </header>
-
+    <div class="sidebar-section">
+      <h3>Book by Category</h3>
+      <nav>
+        <ul>
+          <li><a href="#">All Categories</a></li>
+          <li><a href="#">Business</a></li>
+          <li><a href="#">Science</a></li>
+          <li><a href="#">Fiction</a></li>
+          <li><a href="#">Philosophy</a></li>
+          <li><a href="#">Biography</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="sidebar-section">
+      <h3>Recommendations</h3>
+      <ul>
+        <li><a href="#">Artist of the Month</a></li>
+        <li><a href="#">Rich People Problems</a></li>
+        <li><a href="#">Other Books</a></li>
+      </ul>
+    </div>
     <main>
-      <div class="intro">
-        <h1>IN THE LOOP OF READING ,</h1>
-        <h3>THERE'S ALWAYS ANOTHER PAGE</h3>
+        <div>
         <form class="search-box">
           <input type="search" name="book" placeholder="Search Book" />
         </form>
-        <p>Browse,Borrow,And Belong At LibroLoop</p>
-      </div>
-      <div class="research">
-        <h3>Research Content</h3>
-        <p class="section-text">BROWSE PUBLISHED RESEARCH OR START YOUR OWN</p>
-        <p>Collaborate,Share,And Discover</p>
-        <br/>
-        <a href="#" class="btn-view">
-          View >
-        </a>
-      </div>
-      <div class="readers-space">
-        <h3>Readers Space</h3>
-        <p class="section-text">WHERE READERS MEET , IDEAS FLOW , AND STORIES COME ALIVE </p>
-        <br>
-        <a href="#" class="btn-join">
-          Join >
-        </a>
-      </div>
+        </div>
+
     </main>
 
     <footer class="footer">
@@ -112,7 +108,7 @@
 
       <!-- Bottom Line -->
       <div class="footer-bottom">
-        <p>developed by <strong>ENAS , RAMA  </strong></p>
+        <p>developed by <strong>ENAS , RAMA </strong></p>
         <p>© 2025 LibroLoop. All rights reserved by <a href="#">XO-TEAM</a>.</p>
         <p><a href="#">Terms of Use</a> | <a href="#">Privacy Policy</a></p>
       </div>
