@@ -13,7 +13,7 @@
     />
     <meta name="author" content=" Enas, Rama" />
     <link rel="icon" type="image/x-icon" href="#" />
-    <link rel="stylesheet" href="BrowseBooks.css">
+    <link rel="stylesheet" href="BrowseBooks.css" />
     <title>LibroLoop||Books</title>
   </head>
   <body>
@@ -24,42 +24,51 @@
         <ul class="navbar">
           <li><a href="index.html">Home</a></li>
           <li><a href="BrowseBooks.html" class="active">Browse Books</a></li>
-          <li><a href="#">Communities</a></li>
-          <li><a href="#">Research </a></li>
-          <li><a href="#">Publishing</a></li>
+          <li><a href="Communities.html">Communities</a></li>
+          <li><a href="Research.html">Research </a></li>
+          <li><a href="Publishing.html">Publishing</a></li>
           <li><a href="ContactUs.html">Contact Us</a></li>
         </ul>
       </nav>
     </header>
-    <div class="sidebar-section">
-      <h3>Book by Category</h3>
-      <nav>
+    <section class="search-section">
+      <form class="search-box">
+        <input
+          type="search"
+          name="book"
+          placeholder="Search Book"
+          aria-label="Search for a book"
+        />
+        <button type="submit" aria-label="Search">
+          <i class="fas fa-search"></i>
+        </button>
+      </form>
+    </section>
+    <div class="sidebar-wrapper">
+      <div class="sidebar-section">
+        <h3>Book by Category</h3>
+        <nav>
+          <ul>
+            <li><a href="#">All Categories</a></li>
+            <li><a href="#">Business</a></li>
+            <li><a href="#">Science</a></li>
+            <li><a href="#">Fiction</a></li>
+            <li><a href="#">Philosophy</a></li>
+            <li><a href="#">Biography</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="sidebar-section">
+        <h3>Recommendations</h3>
         <ul>
-          <li><a href="#">All Categories</a></li>
-          <li><a href="#">Business</a></li>
-          <li><a href="#">Science</a></li>
-          <li><a href="#">Fiction</a></li>
-          <li><a href="#">Philosophy</a></li>
-          <li><a href="#">Biography</a></li>
+          <li><a href="#">Artist of the Month</a></li>
+          <li><a href="#">Rich People Problems</a></li>
+          <li><a href="#">Other Books</a></li>
         </ul>
-      </nav>
+      </div>
     </div>
-    <div class="sidebar-section">
-      <h3>Recommendations</h3>
-      <ul>
-        <li><a href="#">Artist of the Month</a></li>
-        <li><a href="#">Rich People Problems</a></li>
-        <li><a href="#">Other Books</a></li>
-      </ul>
-    </div>
-    <main>
-        <div>
-        <form class="search-box">
-          <input type="search" name="book" placeholder="Search Book" />
-        </form>
-        </div>
 
-    </main>
+    <main></main>
 
     <footer class="footer">
       <div class="footer-container">
@@ -77,11 +86,11 @@
         <div class="footer-links">
           <ul>
             <li><a href="index.html">Home</a></li>
-            <li><a href="#">Browse Books</a></li>
-            <li><a href="#">Communities</a></li>
-            <li><a href="#">Research </a></li>
-            <li><a href="#">Publishing</a></li>
-            <li><a href="#">Contact Us</a></li>
+            <li><a href="BrowseBooks.html">Browse Books</a></li>
+            <li><a href="Communities.html">Communities</a></li>
+            <li><a href="Research.html">Research </a></li>
+            <li><a href="Publishing.html">Publishing</a></li>
+            <li><a href="ContactUs.html">Contact Us</a></li>
           </ul>
         </div>
 
