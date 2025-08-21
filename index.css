@@ -4,6 +4,56 @@
     padding: 0px;
 
 }
+/*Top bar*/
+.top-bar {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 40px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.logo-img {
+  height: 90px; 
+  max-width: 300px;
+  max-width: none;
+}
+
+
+.auth-buttons .btn {
+  text-decoration: none;
+  padding: 8px 18px;
+  border-radius: 25px;
+  font-weight: bold;
+  margin-left: 10px;
+  font-size: 16px;
+  transition: 0.3s;
+}
+
+.login-btn {
+  background-color: transparent;
+  color: #233d4d;
+  border: 2px solid #233d4d;
+}
+
+.login-btn:hover {
+  background-color: #233d4d;
+  color: white;
+}
+
+.signup-btn {
+  background-color: #fcca46;
+  color: #233d4d;
+  border: none;
+}
+
+.signup-btn:hover {
+  background-color: #e0b43d;
+}
+
+
+
 /* Nav*/
 .main-nav {
   background-color: #233d4d;
