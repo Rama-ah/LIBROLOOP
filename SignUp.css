@@ -33,6 +33,7 @@ body {
 .header-container a:hover {
   text-decoration: underline;
 }
+
 main {
   flex: 1;
   display: flex;
@@ -160,10 +161,6 @@ main {
     max-width: 400px;
   }
 }
-
-
-
-
 
 
 
