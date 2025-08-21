@@ -1,20 +1,165 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+.header-container {
+ position: relative;
+  top: 0;
+  left: 0;
+  width: 100%; 
+  background-color: #233d4d;
+  padding: 20px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  z-index: 1000;
+}
+
+.header-container .top {
+    color: white;
+  font-size: 20px;
+}
+
+.header-container a {
+  color: #fcca46; 
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.header-container a:hover {
+  text-decoration: underline;
+}
+main {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  padding: 50px;
+  max-width: 1200px;
+  margin: 0 auto;
+  gap: 120px; 
+  overflow-x: hidden;
+}
+.wordmark {
+  text-align: left;
+}
+
+.title1 {
+  font-size: 48px;
+  font-weight: bold;
+  color:#233d4d;
+}
+.title2 {
+  font-size: 48px;
+  font-weight: bold;
+  color:#fcca46;
+}
+.sub-title {
+  font-size: 24px;
+  margin-top: 10px;
+  display: block;
+}
+
+.tagline {
+  font-size: 30px;
+  text-align: left;
+  margin-top: 20px;
+}
+
+.card {
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 40px;
+  width: 350px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.inner-card h1 {
+  text-align: center;
+  color: #233d4d;
+  margin-bottom: 20px;
+}
+
+.field {
+  margin-bottom: 20px;
+}
+
+.label {
+  display: block;
+  color: #233d4d;
+  margin-bottom: 5px;
+}
+
+.input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #233d4d;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.input:focus {
+  outline: none;
+  border-color: #fcca46;
+}
+
+.help {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.help label {
+  color: #233d4d;
+}
+
+.help a {
+  color: #fcca46;
+  text-decoration: none;
+}
+
+.help a:hover {
+  text-decoration: underline;
+}
+
+.btn {
+  width: 100%;
+  padding: 10px;
+  background-color: #fcca46;
+  color: #233d4d;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #e6b53e;
+}
 
 
+@media (max-width: 768px) {
+  main {
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
 
+  .wordmark, .tagline {
+    text-align: center;
+    margin-bottom: 20px;
+  }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+  .card {
+    width: 100%;
+    max-width: 400px;
+  }
+}
 
 
 
